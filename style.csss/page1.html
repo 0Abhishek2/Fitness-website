@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* this is the most importanat part */
+.header ul li:hover,
+header ul li :active{
+    color: rgb(13, 12, 12);
+        text-decoration: underline;
+        /* background-color: rgb(214, 56, 56); */
+        transition: 0.6s ease;
+    
+}
+</style>
+<body>
+    <h1>This is transaction page</h1>
+    <div class="header">
+        <p>Please select your transaction portal:</p>
+        <form action ="/action_page.php">
+        <ul class="Page2">
+                <li class="First">
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Card</label><br>
+                </li>
+                <li class="Second">
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Pay Pal</label><br>
+
+                </li>
+                <li class="Third">
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Courage</label>
+                
+
+
+
+                </li>
+            </ul>
+          
+    </div>
+    <dic class="submit">
+     <input type="submit" value="Submit">
+</form>
+
+    </dic>
+
+
+</body>
+</html>
